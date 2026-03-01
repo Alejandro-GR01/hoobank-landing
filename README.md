@@ -4,7 +4,7 @@ Una landing page moderna y responsiva construida con **React**, **Vite**, **Tail
 
 ## 🌐 Live Demo
 
-Visita el sitio en vivo: **[https://hoobank-ultimate.netlify.app/](https://hoobank-ultimate.netlify.app/)**
+Visita el sitio en vivo: **[https://alejandro-gr01.github.io/hoobank-landing/](https://alejandro-gr01.github.io/hoobank-landing/)**
 
 
 ## 📸 Preview
