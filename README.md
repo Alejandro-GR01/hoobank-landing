@@ -1,6 +1,8 @@
 # Hoobank - Landing Page
 
-Una landing page moderna y responsiva construida con **React**, **Vite**, **Tailwind CSS** y **GSAP** para animaciones suaves.
+Una landing page fintech moderna diseñada para presentar servicios de banca digital mediante una interfaz limpia y atractiva. El proyecto se centra en secciones de contenido estructuradas, componentes de interfaz modernos y un layout visual consistente que destaca las características y servicios financieros.
+
+Construida con prácticas modernas de desarrollo frontend, la página enfatiza el diseño responsive, una jerarquía visual clara y una experiencia de usuario fluida en diferentes dispositivos.
 
 ## 🌐 Live Demo
 
