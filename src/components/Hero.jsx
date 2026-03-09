@@ -57,7 +57,7 @@ const Hero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY} mb-6 md:mb-12`}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col  pl-6 md:pl-12 `}
+        className={`flex-1 ${styles.flexStart} flex-col  px-6 md:px-12 `}
         ref={textRef}
       >
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
@@ -103,7 +103,7 @@ const Hero = () => {
             ref={handRef}
             src={robot}
             alt="billing"
-            className="w-[100%] max-h-[100%] relative z-[5] "
+            className="w-svw max-h-[100%] relative z-[5] "
             loading="eager"
           />
         </picture>

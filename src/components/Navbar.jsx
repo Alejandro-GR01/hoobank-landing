@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <nav
       ref={navbarRef}
-      className="w-full flex py-6 justify-between items-center navbar"
+      className="fixed px-6 md:px-12 backdrop-blur-3xl top-0 left-0 right-0 w-full flex py-6 justify-between items-center navbar"
     >
       <img
         src={logo}
@@ -73,7 +73,7 @@ const Navbar = () => {
         <div
           className={`${
             toogle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px]  w-3/5 rounded-xl sidebar `}
+          } p-6 bg-black-gradient absolute z-10 top-20 right-0 mx-4 my-2 min-w-[140px]  w-3/5 rounded-xl sidebar `}
         >
           <ul className="list-none flex flex-col  justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
@@ -83,11 +83,18 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
                 }`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`#${nav.id}`} onClick={()=> setToogle(false)}>{nav.title}</a>
               </li>
             ))}
           </ul>
         </div>
+        {
+          toogle && (
+            <div className="z-0 absolute top-0 right-0 left-0 h-svh " onClick={()=> setToogle(false)}>
+
+            </div>
+          )
+        }
       </div>
     </nav>
   );

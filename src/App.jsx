@@ -24,12 +24,12 @@ function App() {
   return (
     <div className="bg-primary w-full overflow-hidden relative">
       <div className={` ${styles.flexCenter} relative z-20`}>
-        <div className={`${styles.boxWidth} px-6 md:px-12`}>
+        <div className={`${styles.boxWidth} `}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart} relative z-10`}>
+      <div className={`bg-primary ${styles.flexStart} relative z-10 mt-20`}>
         <div className={`${styles.boxWidth} `}>
           <Hero />
         </div>
